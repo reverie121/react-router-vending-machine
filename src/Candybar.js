@@ -1,11 +1,14 @@
 import React from "react";
 import { Link } from "react-router-dom/cjs/react-router-dom.min";
 
+import './Snack.css';
+
 // A type of snack component. From each snack component, you should be able to go back to the main VendingMachine component.
 
 function Candybar() {
     return(
-        <div className="Candybar">
+        <div className="Snack">
+            <p>Yummy, yummy. Candy!!</p>
             <p>Go back to <Link to="/">vending machine</Link> page</p>
         </div>
     )

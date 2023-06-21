@@ -1,0 +1,13 @@
+.VendingMachine {
+    width: 400px;
+    height: 600px;
+    text-align: center;
+    border: solid;
+    border-radius: 5px;
+    margin: auto;
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content:space-evenly;
+}

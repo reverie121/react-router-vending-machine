@@ -1,0 +1,16 @@
+.Navbar {
+    height: 40px;
+    background-color: darkblue;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.Navbar a {
+    color: white;
+}
+
+.Navbar a.active {
+    color: yellow;
+}

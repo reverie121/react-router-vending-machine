@@ -1,6 +1,7 @@
 import React from 'react';
-import { BrowserRouter, Route } from "react-router-dom/cjs/react-router-dom.min";
+import { BrowserRouter, NavLink, Route } from "react-router-dom/cjs/react-router-dom.min";
 
+import Navbar from './Navbar';
 import VendingMachine from './VendingMachine';
 import Candybar from "./Candybar";
 import Chips from "./Chips";
@@ -11,6 +12,7 @@ import './App.css';
 function App() {
   return (
     <BrowserRouter>
+        <Navbar />
         <Route exact path="/">
           <VendingMachine />
         </Route>
